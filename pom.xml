@@ -90,8 +90,8 @@
             </goals>
           </execution>
           <execution>
-            <id>package</id>
-            <phase>package</phase>
+            <id>smoke-test</id>
+            <phase>post-integration-test</phase>
             <goals>
               <goal>integration-test</goal>
               <goal>verify</goal>
